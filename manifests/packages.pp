@@ -1,4 +1,8 @@
-package { 'notepadplusplus':
-  ensure   => installed,
-  provider => 'chocolatey',
+class packages {
+
+  package { 'notepadplusplus':
+    ensure   => installed,
+    provider => 'chocolatey',
+  }
+  
 }

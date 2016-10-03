@@ -1,3 +1,7 @@
-service { 'BITS':
-  ensure => 'stopped'
+class services {
+
+  service { 'BITS':
+    ensure => 'stopped'
+  }
+
 }

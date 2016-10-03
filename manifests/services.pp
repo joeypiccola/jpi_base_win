@@ -1,0 +1,3 @@
+service { 'BITS':
+  ensure => 'stopped'
+}

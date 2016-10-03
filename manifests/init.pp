@@ -1,3 +1,4 @@
+# base setup for windows servers
 class jpi_base_win {
 
   include chocolatey

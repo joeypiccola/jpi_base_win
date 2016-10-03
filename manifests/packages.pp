@@ -1,4 +1,4 @@
-class jpi_base_win::packages {}
+class jpi_base_win::packages {
 
   package { 'notepadplusplus':
     ensure   => installed,

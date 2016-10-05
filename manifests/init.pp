@@ -2,7 +2,7 @@
 class jpi_base_win (
 
 
-) inherits::jpi_base_win::params {
+) inherits jpi_base_win::params {
   
   include powershell
   include chocolatey

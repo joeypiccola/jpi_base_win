@@ -1,7 +1,7 @@
 #
 class jpi_base_win::timezone (
 
-  $timezone = $davita_base::params::timezone
+  $timezone = $jpi_base_win::params::timezone
 
 ) {
 

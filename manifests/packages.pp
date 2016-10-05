@@ -1,7 +1,11 @@
 # install packages
-class jpi_base_win::packages {
+class jpi_base_win::packages (
 
-  package { 'notepadplusplus':
+  $package = $jpi_base_win::params::package
+
+){
+
+  package { $package:
     ensure   => installed,
     provider => 'chocolatey',
   }

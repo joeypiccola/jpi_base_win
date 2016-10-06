@@ -5,7 +5,7 @@ class jpi_base_win::timezone (
 
 ) {
 
-  class { '::timezone_win':
+  class { 'timezone_win':
     timezone => $timezone,
   }
 

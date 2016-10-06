@@ -10,5 +10,10 @@ class jpi_base_win (
   include ::jpi_base_win::packages
   include ::jpi_base_win::services
 
+  user { 'joey':
+      ensure      => 'present',
+      password    => '*&^GHJ(*76d64urdkd',
+      groups      => ['Users']
+  }
 
 }

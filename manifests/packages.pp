@@ -5,7 +5,7 @@ class jpi_base_win::packages (
 
 ){
 
-  package { 'atom':
+  package { $package:
     ensure   => installed,
     provider => 'chocolatey',
   }

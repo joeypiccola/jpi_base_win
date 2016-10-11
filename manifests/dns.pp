@@ -7,7 +7,7 @@ class jpi_base_win::dns (
 ){
 
   class { '::dns_win':
-    dnsservers		=> $dnsservers,
+    dnsservers      => $dnsservers,
     interfacealias	=> $interfacealias,
   }
 

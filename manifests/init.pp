@@ -1,7 +1,6 @@
 # base setup for windows servers
 class jpi_base_win (
 
-
 ) inherits jpi_base_win::params {
 
   include chocolatey
